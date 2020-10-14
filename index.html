@@ -1,0 +1,133 @@
+<html>
+<head>
+    <title>BBC News</title>
+    <style type="text/css">
+        body{
+            margin: 0;
+            padding: 0;
+            font-family: Helvetica, Arial, sans-serif;
+        }
+
+        #top-bar{
+            width : 1000px;
+            margin : 0 auto;
+            height: 40px;
+            background-color:whitesmoke;
+        }
+
+        #bbc-logo{
+            margin-top: 8px;
+            margin-right: 8px;
+            width: 100px;
+            float: left;    
+        }
+
+        #signin-div{
+            float: left;
+            width: 140px;
+            height: 40px;
+            background-color: whitesmoke ;
+            
+            border-width:0px 1px 0px 1px;
+            border-color: black black black black;
+            border-style:solid; 
+        }
+
+        #signin-logo{
+            width: 25px;
+            position: relative;
+            left: 15px;
+            top:10px;
+        }
+
+        #signin-text {
+            font-weight: bold;
+            font-size: 90%;
+            position: relative;
+            top: 4px;
+            left: 35px;
+}
+
+        #bell-div{
+            float: left;
+            width: 32px;
+            height: 30px;
+            padding: 5px;
+            border-width:0px 1px 0px 0px;
+            border-color: black black black black;
+            border-style:solid;
+        }
+
+        #bell{
+            object-fit: contain;
+            height: 30px;
+        }
+
+        .topbar-menu{
+            width: 515px;
+            height: 40px;
+            background-color:#2F9474;
+            float: left;
+
+        }
+
+        .topbar-menu-style{
+            font-weight: bold;
+            font-size: 90%;
+            float: left;
+            padding: 12px 21px;
+            color: aliceblue;
+            text-decoration: none;
+        }
+
+        .topbar-menu a:hover{
+            background-color: black;
+        }
+
+    </style>
+<head>
+<body>
+    <div id="top-bar">
+        <img id="bbc-logo" src="images/bbc-logo.png">
+
+        <div id="signin-div">
+            <img id="signin-logo" src="images/signinimage.png">
+            <span id="signin-text">Sign in</span>
+        </div>
+
+        <div id="bell-div">
+            <img id=bell src="images/bell.png">
+        </div>
+
+        <div class="topbar-menu">
+            <a href="#news" class="topbar-menu-style">
+                News
+            </a>
+            <a href="#sports" class="topbar-menu-style">
+                Sports
+            </a>
+            <a href="#weather" class="topbar-menu-style">
+                Weather
+            </a>
+            <a href="#iplayer" class="topbar-menu-style">
+                iPlayer
+            </a>
+            <a href="#tv" class="topbar-menu-style">
+                TV
+            </a>
+
+            <div class="dropdown">
+                <button class="dropbtn">
+                    More
+                </button>
+                <div class="dropdown-content">
+                    <a href="#">Link 1</a>
+                    <a href="#">Link 2</a>
+                    <a href="#">Link 3</a>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
